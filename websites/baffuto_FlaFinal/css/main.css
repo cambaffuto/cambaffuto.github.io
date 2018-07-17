@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper{
+	width: 960px;
+	margin:0px auto 0px auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #9ebeed; 
+	font-size: 20px;
+	float: right;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.active {
+    background-color: #fff;
+    color: #fff;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+	background-image: url(../images/nav.png);
+}
+
+
+.header {
+    background-image: url(../images/body.png);
+    padding: 50px;
+    text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 320px; 
+	background-image: url(../images/body.png);
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 320px; 
+	background-image: url(../images/body.png);
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+	
+.picture {
+    background-image: url(../images/body.png);
+    padding: 50px;
+    text-align: center;
+}
+
+.menu{
+	align-content: center;
+}
+
+.footer {
+	height: 100%;
+    background-color: #333;
+    padding: 20px;
+    text-align: left;
+	font-size: 20px;
+}
+
+
+#map {
+        width: 100%;
+        height: 600px;
+		background-color: white;
+}
+
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+	
+.footer a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.footer p{
+	color: white;
+	text-align: right;
+	font-size: 12px;
+	}
+
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}

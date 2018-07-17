@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Crazy Flamingo - Contact</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="wrapper">
+<a href="../index.html"><img src="../images/flamingoLogo.png" width="100px" height="100px" alt="logo"></a>
+
+<div class="topnav">
+  <a href="turnjs4/samples/basic/index.html">Menu</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html" class="active">Contact</a>
+</div>
+
+<div class="header">
+	<a href="https://www.google.com/maps/place/Crazy+Flamingo/@25.9527491,-81.7255816,17z/data=!3m1!4b1!4m5!3m4!1s0x88daefb1cc3c51b9:0x34ad8f9c2efa34ed!8m2!3d25.9527491!4d-81.7233929"><img src="../images/directionsbutton.png" height="80px" width="150px" alt="get directions"></a>
+  <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 25.9528263, lng: -81.7234144};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBHSSQFrK3n98Vncyjox1NRnSZbLimSFg&callback=initMap">
+    </script>
+	<br>
+	<a href="#"><img src="../images/callus.png" height="80px" width="150px" alt="Call Us"></a>
+	
+</div>
+
+
+		
+<div class="footer">
+  <img src="../images/flamingoLogo.png" height="100px" width="100px" alt="logo">
+  <a href="../index.html">Home</a>
+  <a href="turnjs4/samples/basic/index.html">Menu</a>
+  <a href="about.html">About</a>
+  <a href="shop.html">Shop</a>
+  <a href="contact.html">Contact</a>
+	
+<p>
+	<a href="https://www.facebook.com/The-Crazy-Flamingo-Seafood-Raw-Bar-Grill-294359850604176/"><img src="../images/facebook.png" height="50px" width="50px" alt="facebook"></a>
+	<a href="https://www.instagram.com/explore/locations/4201648/the-crazy-flamingo/"><img src="../images/insta.png" height="50px" width="50px" alt="instagram"></a>
+	<a href="https://www.youtube.com/watch?v=R47toCNiTHg"><img src="../images/youtube.png" height="50px" width="50px" alt="youtube"></a>
+</p>
+	
+	<p>Copyright 2017 Crazy Flamingo</p>
+	</div>
+	</div>
+</body>
+</html>
+
