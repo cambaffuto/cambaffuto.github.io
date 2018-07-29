@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 #wrapper{
-	width: 100%;
 	margin:0px auto 0px auto;
 }
 
 .topnav {
     overflow: hidden;
     background-color: #9ebeed; 
-	font-size: 20px;
-	float: right;
+    font-size: 20px;
+    float: right;
+    padding-right: 12px;
 }
 
 
